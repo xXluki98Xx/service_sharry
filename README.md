@@ -3,9 +3,9 @@ Shields
 Headers
 -->
 
-# Hodgins: apt-cacher-ng Service
+# Hodgins: sharry Service
 
-A repository, providing an apt-cacher-ng service for Hodgins Server.
+A repository, providing an sharry service for Hodgins Server.
 
 ## Description
 
@@ -26,22 +26,22 @@ A hodgins server or compatible deployment must be provided.
 Clone the repository next to you existing Hodgins Server code.
 
 ```
-git clone https://github.com/hodgins-project/service_apt-cacher-ng.git
+git clone https://github.com/xXluki98Xx/service_sharry.git
 ```
 
 Afterwards, you can install the service.
 
 ```
-ansible-playbook -i <path-to-your-inventory> -k -K -u <hodgins-users> playbooks/service_apt-cacher-ng.yml
+ansible-playbook -i <path-to-your-inventory> -k -K -u <hodgins-users> playbooks/service_sharry.yml
 ```
 
 ## Usage
 
-The installation will respond to you with a running apt-cacher-ng service.
+The installation will respond to you with a running sharry service.
 Now you can enter the report page:
 
 ```
-http://hodgins-ip:3142/acng-report.html
+http://hodgins-ip:8080/app
 ```
 
 To interact with the container, you will have multiple options.
@@ -58,7 +58,7 @@ $ sudo systemctl status podman
 Restart the service (and apply updated images):
 
 ```
-$ sudo systemctl restart container_apt-cacher-ng
+$ sudo systemctl restart container_sharry
 ```
 
 Services in Hodgins are running in containers. You can interact with the containers
@@ -73,7 +73,7 @@ podman ps
 Restart a running container:
 
 ```
-podman container restart apt-cacher-ng
+podman container restart service_sharry
 ```
 
 ## Changelog
@@ -87,8 +87,8 @@ Thank you so much for considering to contribute! We are happy, when someone is
 joining the hard work. Please feel free to contribute, after having a look at
 the [Conventions](https://github.com/while-true-do/doc-library/).
 
-- [Bugs and Feature Requests](https://github.com/hodgins-project/service_teamspeak/issues)
-- [Pull Requests](https://github.com/hodgins-project/service_teamspeak/pulls)
+- [Bugs and Feature Requests](https://github.com/xXluki98Xx/sharry/issues)
+- [Pull Requests](https://github.com/xXluki98Xx/service_sharry/pulls)
 
 See who has contributed already in the [KUDOS.txt](KUDOS.txt).
 
