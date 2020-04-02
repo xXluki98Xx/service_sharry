@@ -3,7 +3,7 @@ Shields
 Headers
 -->
 
-# Hodgins: sharry Service
+# Hodgins: 3rd Party Service sharry
 
 A repository, providing an sharry service for Hodgins Server.
 
@@ -76,11 +76,6 @@ Restart a running container:
 podman container restart service_sharry
 ```
 
-## Changelog
-
-The repository contains a curated, chronological [changelog](CHANGELOG.md),
-maintained by the owner for each release/tag.
-
 ## Contribute
 
 Thank you so much for considering to contribute! We are happy, when someone is
@@ -89,21 +84,3 @@ the [Conventions](https://github.com/while-true-do/doc-library/).
 
 - [Bugs and Feature Requests](https://github.com/xXluki98Xx/sharry/issues)
 - [Pull Requests](https://github.com/xXluki98Xx/service_sharry/pulls)
-
-See who has contributed already in the [KUDOS.txt](KUDOS.txt).
-
-## Test
-
-tbd
-
-## License
-
-This work is [licensed](LICENSE) under a
-[BSD-3-Clause License](https://opensource.org/licenses/BSD-3-Clause).
-
-## Contact
-
--   Site <https://while-true-do.io>
--   Code <https://github.com/while-true-do>
--   Mail [hello@while-true-do.io](mailto:hello@while-true-do.io)
--   Chat [@freenode #while-true-do](https://webchat.freenode.net/#while-true-do)
