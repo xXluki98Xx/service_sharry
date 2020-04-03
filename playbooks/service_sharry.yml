@@ -10,7 +10,7 @@
 
   vars:
 
-    image_name: "docker.io/lramm/sharry:1.1.0"
+    image_name: "docker.io/lramm/sharry"
     image_update: false
     container_name: "sharry"
     container_port: "8080"
